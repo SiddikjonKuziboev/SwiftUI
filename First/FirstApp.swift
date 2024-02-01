@@ -11,7 +11,8 @@ import SwiftUI
 struct FirstApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
+
