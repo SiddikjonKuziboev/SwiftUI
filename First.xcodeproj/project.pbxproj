@@ -19,6 +19,7 @@
 		9C95B3B12B3AF7B400300B2B /* FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95B3B02B3AF7B400300B2B /* FirstUITests.swift */; };
 		9C95B3B32B3AF7B400300B2B /* FirstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95B3B22B3AF7B400300B2B /* FirstUITestsLaunchTests.swift */; };
 		9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */; };
+		9CA2DD022B725378008B6D6D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DD012B725378008B6D6D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		9C95B3B02B3AF7B400300B2B /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		9C95B3B22B3AF7B400300B2B /* FirstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		9CA2DD012B725378008B6D6D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				9C944B4F2B6B529900CD8820 /* CardView.swift */,
 				9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */,
 				9C944B512B6B70AE00CD8820 /* TrailingIconLabelStyle.swift */,
+				9CA2DD012B725378008B6D6D /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C944B4E2B6B50F700CD8820 /* DailyScrum.swift in Sources */,
+				9CA2DD022B725378008B6D6D /* DetailView.swift in Sources */,
 				9C944B522B6B70AE00CD8820 /* TrailingIconLabelStyle.swift in Sources */,
 				9C944B4C2B6B4DAE00CD8820 /* Theme.swift in Sources */,
 				9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */,
