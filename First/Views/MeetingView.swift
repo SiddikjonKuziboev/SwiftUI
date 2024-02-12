@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct MeetingView: View {
+    @StateObject var scrumTimer = ScrumTimer()
     
     var body: some View {
         VStack {
             ProgressView(value: 10, total: 15)
             HStack {
                 VStack(alignment: .leading) {
+                    ChildView()
+                        .environmentObject(scrumTimer)
                     Text("Second Elapsed")
                         .font(.caption)
                     Label("300", systemImage: "hourglass.tophalf.fill")

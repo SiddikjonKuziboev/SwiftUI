@@ -21,6 +21,9 @@
 		9C99BC942B748AF700D19EC4 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99BC932B748AF700D19EC4 /* DetailEditView.swift */; };
 		9C9A58B42B75DCFF0014CB29 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A58B32B75DCFF0014CB29 /* ThemeView.swift */; };
 		9C9A58B62B75E0FF0014CB29 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A58B52B75E0FF0014CB29 /* ThemePicker.swift */; };
+		9C9D9F452B79D24A008B5CA7 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D9F442B79D24A008B5CA7 /* ScrumTimer.swift */; };
+		9C9D9F492B79D788008B5CA7 /* GrandChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D9F482B79D788008B5CA7 /* GrandChildView.swift */; };
+		9C9D9F4B2B79D88C008B5CA7 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D9F4A2B79D88C008B5CA7 /* ParentView.swift */; };
 		9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */; };
 		9CA2DD022B725378008B6D6D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DD012B725378008B6D6D /* DetailView.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,9 @@
 		9C99BC932B748AF700D19EC4 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		9C9A58B32B75DCFF0014CB29 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		9C9A58B52B75E0FF0014CB29 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		9C9D9F442B79D24A008B5CA7 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		9C9D9F482B79D788008B5CA7 /* GrandChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandChildView.swift; sourceTree = "<group>"; };
+		9C9D9F4A2B79D88C008B5CA7 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		9CA2DD012B725378008B6D6D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9C944B4B2B6B4DAE00CD8820 /* Theme.swift */,
+				9C9D9F442B79D24A008B5CA7 /* ScrumTimer.swift */,
 				9C944B4D2B6B50F700CD8820 /* DailyScrum.swift */,
 			);
 			path = Models;
@@ -172,6 +179,8 @@
 				9C9A58B72B75E51F0014CB29 /* CustomView */,
 				9C95B3972B3AF7B200300B2B /* MeetingView.swift */,
 				9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */,
+				9C9D9F4A2B79D88C008B5CA7 /* ParentView.swift */,
+				9C9D9F482B79D788008B5CA7 /* GrandChildView.swift */,
 				9CA2DD012B725378008B6D6D /* DetailView.swift */,
 				9C99BC932B748AF700D19EC4 /* DetailEditView.swift */,
 			);
@@ -312,8 +321,11 @@
 				9C944B4E2B6B50F700CD8820 /* DailyScrum.swift in Sources */,
 				9CA2DD022B725378008B6D6D /* DetailView.swift in Sources */,
 				9C99BC942B748AF700D19EC4 /* DetailEditView.swift in Sources */,
+				9C9D9F4B2B79D88C008B5CA7 /* ParentView.swift in Sources */,
 				9C944B522B6B70AE00CD8820 /* TrailingIconLabelStyle.swift in Sources */,
 				9C944B4C2B6B4DAE00CD8820 /* Theme.swift in Sources */,
+				9C9D9F452B79D24A008B5CA7 /* ScrumTimer.swift in Sources */,
+				9C9D9F492B79D788008B5CA7 /* GrandChildView.swift in Sources */,
 				9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */,
 				9C95B3982B3AF7B200300B2B /* MeetingView.swift in Sources */,
 				9C95B3962B3AF7B200300B2B /* FirstApp.swift in Sources */,
@@ -490,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,6 +532,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
