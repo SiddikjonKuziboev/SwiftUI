@@ -32,6 +32,7 @@
 		9C9D9F572B7F2F39008B5CA7 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D9F562B7F2F39008B5CA7 /* History.swift */; };
 		9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */; };
 		9CA2DD022B725378008B6D6D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2DD012B725378008B6D6D /* DetailView.swift */; };
+		9CA9634D2B871389009FF270 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9634C2B871389009FF270 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		9C9D9F562B7F2F39008B5CA7 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		9CA2DCFE2B709AD9008B6D6D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		9CA2DD012B725378008B6D6D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9CA9634C2B871389009FF270 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				9C944B4B2B6B4DAE00CD8820 /* Theme.swift */,
 				9C9D9F442B79D24A008B5CA7 /* ScrumTimer.swift */,
 				9C9D9F562B7F2F39008B5CA7 /* History.swift */,
+				9CA9634C2B871389009FF270 /* ScrumStore.swift */,
 				9C944B4D2B6B50F700CD8820 /* DailyScrum.swift */,
 				9C9D9F4C2B7DC7E0008B5CA7 /* AVPlayer+Ding.swift */,
 			);
@@ -350,6 +353,7 @@
 				9C9D9F532B7DD844008B5CA7 /* MeetingFooterView.swift in Sources */,
 				9CA2DCFF2B709AD9008B6D6D /* ScrumsView.swift in Sources */,
 				9C9D9F572B7F2F39008B5CA7 /* History.swift in Sources */,
+				9CA9634D2B871389009FF270 /* ScrumStore.swift in Sources */,
 				9C95B3982B3AF7B200300B2B /* MeetingView.swift in Sources */,
 				9C95B3962B3AF7B200300B2B /* FirstApp.swift in Sources */,
 				9C9A58B42B75DCFF0014CB29 /* ThemeView.swift in Sources */,
