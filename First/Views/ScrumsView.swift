@@ -5,15 +5,14 @@
 //  Created by Siddikjon Kuziboev on 05/02/24.
 //
 
-
 import SwiftUI
 
 struct ScrumsView: View {
-   @Binding var scrums: [DailyScrum]
-    @Environment (\.scenePhase ) private var scenePhase
-    @State var isPresentingNewScrumView = false
+    @Binding var scrums: [DailyScrum]
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var isPresentingNewScrumView = false
     let saveAction: ()->Void
-    
+
     var body: some View {
         NavigationStack {
             List($scrums) { $scrum in
